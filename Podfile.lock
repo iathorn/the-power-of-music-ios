@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AudioKit (4.0.3):
+    - AudioKit/UI (= 4.0.3)
+  - AudioKit/UI (4.0.3)
+  - Kingfisher (4.6.1)
+  - PandoraPlayer (1.2):
+    - AudioKit (= 4.0.3)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - PandoraPlayer
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AudioKit: 914e5e8fcbf35099ff2398775342446a2d81476d
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  PandoraPlayer: 6e2f905ad7c6e51294e6f090d304f08a724174aa
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 115a190390b82528d76a434e252a50fe6274e2c0
+
+COCOAPODS: 1.3.1

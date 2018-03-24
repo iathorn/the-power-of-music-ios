@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C85A2651365FA6826035CC2 /* Pods_BaeminPracPracPrac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E09A40F02D0DE2E640DE508 /* Pods_BaeminPracPracPrac.framework */; };
+		DA073D6D2065F843002E4720 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA073D6C2065F843002E4720 /* AudioPlayer.swift */; };
+		DA4BE9312066292B00D8D131 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4BE9302066292B00D8D131 /* PlayerViewController.swift */; };
+		DA4BE93320662CC000D8D131 /* PlayListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4BE93220662CC000D8D131 /* PlayListTableViewCell.swift */; };
+		DA4BE93520664AE600D8D131 /* DummyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4BE93420664AE600D8D131 /* DummyTableViewCell.swift */; };
 		DA8C3F0E2063E9BD006D8D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C3F0D2063E9BD006D8D91 /* AppDelegate.swift */; };
-		DA8C3F102063E9BD006D8D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C3F0F2063E9BD006D8D91 /* ViewController.swift */; };
 		DA8C3F132063E9BD006D8D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8C3F112063E9BD006D8D91 /* Main.storyboard */; };
 		DA8C3F152063E9BD006D8D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8C3F142063E9BD006D8D91 /* Assets.xcassets */; };
 		DA8C3F182063E9BD006D8D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8C3F162063E9BD006D8D91 /* LaunchScreen.storyboard */; };
+		DA8C3F202063EB67006D8D91 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C3F1F2063EB67006D8D91 /* MainViewController.swift */; };
+		DA8C3F222063EED0006D8D91 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C3F212063EED0006D8D91 /* PostCollectionViewCell.swift */; };
+		DABAC50E206489C500FED5DF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAC50D206489C500FED5DF /* DetailViewController.swift */; };
+		DABAC5102065286800FED5DF /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAC50F2065286800FED5DF /* InfoTableViewCell.swift */; };
+		DACF11D4206550910036A0CC /* BannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF11D3206550910036A0CC /* BannerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06FB2C6011757A1915CD31B8 /* Pods-BaeminPracPracPrac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaeminPracPracPrac.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaeminPracPracPrac/Pods-BaeminPracPracPrac.release.xcconfig"; sourceTree = "<group>"; };
+		930DB6C8E74189D6399D5559 /* Pods-BaeminPracPracPrac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaeminPracPracPrac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaeminPracPracPrac/Pods-BaeminPracPracPrac.debug.xcconfig"; sourceTree = "<group>"; };
+		9E09A40F02D0DE2E640DE508 /* Pods_BaeminPracPracPrac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaeminPracPracPrac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA073D6C2065F843002E4720 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		DA4BE9302066292B00D8D131 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		DA4BE93220662CC000D8D131 /* PlayListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListTableViewCell.swift; sourceTree = "<group>"; };
+		DA4BE93420664AE600D8D131 /* DummyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyTableViewCell.swift; sourceTree = "<group>"; };
 		DA8C3F0A2063E9BD006D8D91 /* BaeminPracPracPrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaeminPracPracPrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8C3F0D2063E9BD006D8D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA8C3F0F2063E9BD006D8D91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA8C3F122063E9BD006D8D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA8C3F142063E9BD006D8D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA8C3F172063E9BD006D8D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA8C3F192063E9BD006D8D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8C3F1F2063EB67006D8D91 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DA8C3F212063EED0006D8D91 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		DABAC50D206489C500FED5DF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DABAC50F2065286800FED5DF /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		DACF11D3206550910036A0CC /* BannerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C85A2651365FA6826035CC2 /* Pods_BaeminPracPracPrac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75C5D877E5BD5D116E8621B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E09A40F02D0DE2E640DE508 /* Pods_BaeminPracPracPrac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C807637E7FC3397C5CFA1E04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				930DB6C8E74189D6399D5559 /* Pods-BaeminPracPracPrac.debug.xcconfig */,
+				06FB2C6011757A1915CD31B8 /* Pods-BaeminPracPracPrac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA8C3F012063E9BD006D8D91 = {
 			isa = PBXGroup;
 			children = (
 				DA8C3F0C2063E9BD006D8D91 /* BaeminPracPracPrac */,
 				DA8C3F0B2063E9BD006D8D91 /* Products */,
+				C807637E7FC3397C5CFA1E04 /* Pods */,
+				75C5D877E5BD5D116E8621B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +95,19 @@
 			isa = PBXGroup;
 			children = (
 				DA8C3F0D2063E9BD006D8D91 /* AppDelegate.swift */,
-				DA8C3F0F2063E9BD006D8D91 /* ViewController.swift */,
 				DA8C3F112063E9BD006D8D91 /* Main.storyboard */,
 				DA8C3F142063E9BD006D8D91 /* Assets.xcassets */,
 				DA8C3F162063E9BD006D8D91 /* LaunchScreen.storyboard */,
 				DA8C3F192063E9BD006D8D91 /* Info.plist */,
+				DA8C3F1F2063EB67006D8D91 /* MainViewController.swift */,
+				DA8C3F212063EED0006D8D91 /* PostCollectionViewCell.swift */,
+				DABAC50D206489C500FED5DF /* DetailViewController.swift */,
+				DABAC50F2065286800FED5DF /* InfoTableViewCell.swift */,
+				DACF11D3206550910036A0CC /* BannerTableViewCell.swift */,
+				DA073D6C2065F843002E4720 /* AudioPlayer.swift */,
+				DA4BE9302066292B00D8D131 /* PlayerViewController.swift */,
+				DA4BE93220662CC000D8D131 /* PlayListTableViewCell.swift */,
+				DA4BE93420664AE600D8D131 /* DummyTableViewCell.swift */,
 			);
 			path = BaeminPracPracPrac;
 			sourceTree = "<group>";
@@ -71,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA8C3F1C2063E9BD006D8D91 /* Build configuration list for PBXNativeTarget "BaeminPracPracPrac" */;
 			buildPhases = (
+				2C80A5514959CF27E93BA797 /* [CP] Check Pods Manifest.lock */,
 				DA8C3F062063E9BD006D8D91 /* Sources */,
 				DA8C3F072063E9BD006D8D91 /* Frameworks */,
 				DA8C3F082063E9BD006D8D91 /* Resources */,
+				296D4F8B60961AE2B0A91905 /* [CP] Embed Pods Frameworks */,
+				2A112738F9C981B649AC7BED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +148,11 @@
 					DA8C3F092063E9BD006D8D91 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -131,13 +187,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		296D4F8B60961AE2B0A91905 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BaeminPracPracPrac/Pods-BaeminPracPracPrac-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/AudioKit/iOS/AudioKit.framework",
+				"${PODS_ROOT}/AudioKit/iOS/AudioKitUI.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PandoraPlayer/PandoraPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKitUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PandoraPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaeminPracPracPrac/Pods-BaeminPracPracPrac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A112738F9C981B649AC7BED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaeminPracPracPrac/Pods-BaeminPracPracPrac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C80A5514959CF27E93BA797 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaeminPracPracPrac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA8C3F062063E9BD006D8D91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8C3F102063E9BD006D8D91 /* ViewController.swift in Sources */,
+				DACF11D4206550910036A0CC /* BannerTableViewCell.swift in Sources */,
+				DA4BE9312066292B00D8D131 /* PlayerViewController.swift in Sources */,
+				DA4BE93320662CC000D8D131 /* PlayListTableViewCell.swift in Sources */,
+				DA8C3F202063EB67006D8D91 /* MainViewController.swift in Sources */,
+				DA4BE93520664AE600D8D131 /* DummyTableViewCell.swift in Sources */,
+				DABAC5102065286800FED5DF /* InfoTableViewCell.swift in Sources */,
 				DA8C3F0E2063E9BD006D8D91 /* AppDelegate.swift in Sources */,
+				DA8C3F222063EED0006D8D91 /* PostCollectionViewCell.swift in Sources */,
+				DABAC50E206489C500FED5DF /* DetailViewController.swift in Sources */,
+				DA073D6D2065F843002E4720 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +400,13 @@
 		};
 		DA8C3F1D2063E9BD006D8D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930DB6C8E74189D6399D5559 /* Pods-BaeminPracPracPrac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S2R3M45L8;
 				INFOPLIST_FILE = BaeminPracPracPrac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dpaulb.BaeminPracPracPrac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +417,13 @@
 		};
 		DA8C3F1E2063E9BD006D8D91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FB2C6011757A1915CD31B8 /* Pods-BaeminPracPracPrac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S2R3M45L8;
 				INFOPLIST_FILE = BaeminPracPracPrac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dpaulb.BaeminPracPracPrac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
